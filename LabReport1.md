@@ -21,7 +21,7 @@ If the command worked correctly, your should see a message asking you if you wan
 This will cause the terminal to ask for your password which should be the password for your own account that was created earlier. 
 If it all works, you should see this 
 
-![Image](unnamed (1).png)
+![Image](unnamed(1).png)
 
 * Trying Some Commands
 
@@ -35,6 +35,6 @@ Once everything is up and running, you have free will on this signed in account.
 There are so many other commands that can be used so to learn more about the possibilities, it is great to search up some new ones online and
 try them out for yourself. Here is an example of some of the commands in action:
 
-![Image](unnamed (2).png)
+![Image](unnamed(2).png)
 
 In order to log out of the remote server, you can use CTRL+D and it should log you out itself.
