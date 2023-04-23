@@ -32,3 +32,7 @@
            Server.start(port, new StringHandler());
         }
     }
+
+![Image](Capture2.PNG)
+
+![Image](Capture3.PNG)
