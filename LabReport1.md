@@ -28,15 +28,19 @@ If it all works, you should see this:
 Once everything is up and running, you have free will on this signed in account. Here is a small list of commands that are usable:
 
     pwd
+
 This command is used to print the current working directory.
 
     cd ~
+
 This will send you back to the home directory.
 
     cd <directory>
+
 This will send you into the specified directory.
 
     ls -lat
+
 This ls command will print out all of the files found in the current working directory. When looking at the letters for "lat", l will make the command
 print everything with more detailed information, a will print out hidden files, and the t will sort the files by the time modified.
 
