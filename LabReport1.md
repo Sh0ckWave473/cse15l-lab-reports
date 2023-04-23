@@ -49,6 +49,9 @@ try them out for yourself. Here is an example of some of the commands in action:
 
 ![Image](unnamed(2).png)
 
+These commands in this image are what was briefly explained in the previous command examples. Most of what occurred was me checking which directory I was
+in, attempting to change directories and printing out everything that was currently on my working directory (even the hidden files) sorted by time modified.
+
 In order to log out of the remote server, you can use CTRL+D and it should log you out itself.
 
 And you are done!
