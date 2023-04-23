@@ -6,7 +6,7 @@ given after clicking the download link at the top right of the screen.
 You should be able to see this screen when you finish all of the steps:
 
 ![Image](unnamed.png)
-# Remotely Connecting
+## Remotely Connecting
 
 If you have git, you do not need to install the program. Otherwise follow this [link](https://gitforwindows.org/) and
 install it to your device.
@@ -23,7 +23,7 @@ If it all works, you should see this:
 
 ![Image](unnamed(1).png)
 
-# Trying Some Commands
+## Trying Some Commands
 
 Once everything is up and running, you have free will on this signed in account. Here is a small list of commands that are usable:
 
