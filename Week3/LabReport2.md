@@ -1,3 +1,4 @@
+# Part 1
     import java.io.IOException;
     import java.net.URI;
     class StringHandler implements URLHandler{
@@ -34,5 +35,108 @@
     }
 
 ![Image](Capture2.PNG)
+    
+    handleRequest(URI url)
+    
+url: localhost:2000/add-message?s=Here is an input
+
+    getPath()
+    
+Returns: /add-message
+
+    getQuery()
+    
+Returns: ?s=Here is an input
+
+    split()
+
+Input: "="
+parameters: ["s", "Here is an input"]
+Returns: Array of strings that are split between "="
+
+    equals()
+    
+Returns: message if the path of url is empty. Also used to check if the query before the equals sign equals "s"
+
+    contains()
+
+Returns: true if the path equated to "/add-message"
+
+In terms of changing values, message will be changing throughout the call since it is instantiated as an empty string initially, then changed to "Here is an input" which would be returned by the method in the end.
 
 ![Image](Capture3.PNG)
+    
+    handleRequest(URI url)
+    
+url: localhost:2000/add-message?s=and this is another one
+
+    getPath()
+    
+Returns: /add-message
+
+    getQuery()
+    
+Returns: ?s=and this is another one
+
+    split()
+
+Input: "="
+parameters: ["s", "and this is another one"]
+Returns: Array of strings that are split between "="
+
+    equals()
+    
+Returns: message if the path of url is empty. Also used to check if the query before the equals sign equals "s"
+
+    contains()
+
+Returns: true if the path equated to "/add-message"
+
+In terms of changing values, message will be changing throughout the call since it is instantiated as an empty string initially, then changed to "and this is another one" which would be returned by the method in the end.
+# Part 2
+Here I will be using the filer() method as my example.
+
+Note: We defined StringChecker to determine if the given string contains the string input into string checker. If it does, it stays in the list. If it does not, it will be removed.
+
+The first assertEquals() method is the test with the failure inducing input. It is supposed to return { "P A" , " " } but instead returns { " " , "P A" }.
+
+The second assertEquals() method is the test with the positive test result. It correctly returns { "P A" }.
+
+    public void testFilter(){
+        ListExamples lE = new ListExamples();
+        List<String> testList = new
+            ArrayList<String>(Arrays.asList(" ", "P A", "0"));
+        List<String> correctList = new
+            ArrayList<String>(Arrays.asList(" ", "P A"));
+        StringChecker sC = new StringCheckerClass(" ");
+        assertEquals(correctList, lE.filter(testList, sC));
+        testList.remove(0);
+        correctList.remove(0);
+        assertEquals(correctList, lE.filter(testList, sC));
+    }
+
+Before:
+
+    static List<String> filter(List<String> list, StringChecker sc) {
+        List<String> result = new ArrayList<>();
+        for(String s: list) {
+            if(sc.checkString(s)) {
+                result.add(0, s);
+            }
+        }
+        return result;
+    }
+    
+After:
+
+    static List<String> filter(List<String> list, StringChecker sc) {
+        List<String> result = new ArrayList<>();
+        for(String s: list) {
+            if(sc.checkString(s)) {
+                result.add(s);
+            }
+        }
+        return result;
+    }
+
+# Part 3
