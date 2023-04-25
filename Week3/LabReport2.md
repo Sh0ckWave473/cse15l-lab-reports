@@ -1,4 +1,6 @@
 # Part 1
+##StringServer Code
+
     import java.io.IOException;
     import java.net.URI;
     class StringHandler implements URLHandler{
@@ -33,8 +35,9 @@
            Server.start(port, new StringHandler());
         }
     }
-
+##First /add-message input
 ![Image](Capture2.PNG)
+**Relevant Methods and Values**
     
     handleRequest(URI url)
     
@@ -64,8 +67,10 @@ Returns: true if the path equated to "/add-message"
 
 In terms of changing values, message will be changing throughout the call since it is instantiated as an empty string initially, then changed to "Here is an input" which would be returned by the method in the end.
 
+##Second /add-message input
 ![Image](Capture3.PNG)
-    
+**Relevant Methods and Values**
+
     handleRequest(URI url)
     
 url: localhost:2000/add-message?s=and this is another one
