@@ -115,6 +115,12 @@ The second assertEquals() method is the test with the positive test result. It c
         assertEquals(correctList, lE.filter(testList, sC));
     }
 
+Failed Test:
+![Image](Fail.PNG)
+
+Successful Test (Commented out the failing test):
+![Image](Success.PNG)
+
 Before:
 
     static List<String> filter(List<String> list, StringChecker sc) {
@@ -140,3 +146,4 @@ After:
     }
 
 # Part 3
+Overall, I was completely unaware of the capabilities java had in terms of website creation. I have always assumed that there was much more when it comes to creating my own personalized website that could continuously keep track of data. I have leanred more not only about the possibilities of java, but I have also learned how to take advantage of GitHub's Desktop feature which feels extremely useful for large group projects. Before this class, I had a minimal grasp on what GitHub could do. Now I am full understanding just how important this tool is for future careers in my field.
