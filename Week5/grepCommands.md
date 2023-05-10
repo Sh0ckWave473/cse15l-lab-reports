@@ -8,7 +8,7 @@ This command for is meant to take the input by the user and find all lines withi
 
 ## Showcase
 
-![image](Screenshot 2023-05-09 185809.png)
+![image](removea.png)
 ![image](removeIt.png)
 
 # Grep -m
