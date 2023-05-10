@@ -8,6 +8,9 @@ This command for is meant to take the input by the user and find all lines withi
 
 ## Showcase
 
+![image](Screenshot 2023-05-09 185809.png)
+![image](removeIt.png)
+
 # Grep -m
 
     grep -m [number of desired matches] [string to match] [files]
@@ -15,6 +18,9 @@ This command for is meant to take the input by the user and find all lines withi
 Stops displaying lines that match after the number of lines given reaches the input. If it does not reach the number, it will just print all matching lines.
 
 ## Showcase
+
+![image](10matches.png)
+![image](20matches.png)
 
 # Grep -n
 
@@ -24,6 +30,9 @@ Displays the line numbers of each output's original line location from the file.
 
 ## Showcase
 
+![image](linesforitremove.png)
+![image](lineswithmax10.png)
+
 # Grep -l
 
     grep -l [string to match] [files]
@@ -31,3 +40,6 @@ Displays the line numbers of each output's original line location from the file.
 This will output all files that contain the given string. There will be no output however if none of the files contain the string. This is very useful for quick searches between files.
 
 ## Showcase
+
+![image](filesWithWhistleblowers.png)
+![image](noneHaveThisString.png)
