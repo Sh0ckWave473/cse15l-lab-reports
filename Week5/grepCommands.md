@@ -174,6 +174,7 @@ This will output all files that contain the given string. There will be no outpu
 1st Example
 
     [cs15lsp23rj@ieng6-202]:plos:166$ grep -l Whistleblowers pmed.0020281.txt pmed.0010047.txt pmed.0010013.txt
+    
     pmed.0020281.txt
     [cs15lsp23rj@ieng6-202]:plos:167$
 
