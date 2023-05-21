@@ -7,7 +7,7 @@ Make sure to follow the lab instructions [here]([https://ucsd-cse15l-s23.github.
 
     ssh<SPACE>cs15lsp23__@ieng6.ucsd.edu<ENTER>
 
-The `__` left in the code is meant to be a placeholder for your account's speciallized characters. Also, what is pasted in is the url of your forked repository found on your GitHub profile.
+The `__` left in the code is meant to be a placeholder for your account's speciallized characters.
 
 ![image](Step4.png)
     
@@ -16,7 +16,7 @@ The `__` left in the code is meant to be a placeholder for your account's specia
     git<SPACE>clone<SPACE><CTRL+V><ENTER>
     ls<ENTER>
     
-The `ls` is not necessary, but is helpful to make sure that the command prior worked correctly.
+The `ls` is not necessary, but is helpful to make sure that the command prior worked correctly. Also, what is pasted in is the url of your forked repository found on your GitHub profile when in the repository main page. You can easily copy this from the search bar.
 
 ![image](Step5.png)
 
