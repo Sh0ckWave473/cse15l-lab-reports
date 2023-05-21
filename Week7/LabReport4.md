@@ -2,12 +2,12 @@
 
 ## Steps 1-3
 
-Make sure to follow the lab instructions [here]([https://ucsd-cse15l-s23.github.io/week/week7/#baseline](https://ucsd-cse15l-s23.github.io/week/week7/#speeding-up-command-line-tasks)) to make sure that your machine is set up correctly for the next steps ahead.
+Make sure to follow the lab instructions [here]([https://ucsd-cse15l-s23.github.io/week/week7/#baseline](https://ucsd-cse15l-s23.github.io/week/week7/#speeding-up-command-line-tasks)) so that your machine is set up correctly for the next steps ahead.
 ## Step 4
 
     ssh<SPACE>cs15lsp23__@ieng6.ucsd.edu<ENTER>
 
-The `__` left in the code is meant to be a placeholder for your account's speciallized characters.
+The `__` left in the code is meant to be a placeholder for your account's speciallized characters. Also, what is pasted in is the url of your forked repository found on your GitHub profile.
 
 ![image](Step4.png)
     
