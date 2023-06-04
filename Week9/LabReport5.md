@@ -27,9 +27,9 @@ The bug in the code was located in the bash script where it originally used `jav
 
 -MessingWithVSCode
 
-  -bash.sh
+----bash.sh
   
-  -RandomStuff.java
+----RandomStuff.java
   
   
 **The contents of each file before fixing the bug**
