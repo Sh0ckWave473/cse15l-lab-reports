@@ -25,7 +25,7 @@ The bug in the code was located in the bash script where it originally used `jav
 # Information Need To Help The Student
 **The file & directory structure needed**
 
--MessingWithVSCode
+-MessingWithVSCode/
 
 ----bash.sh
   
