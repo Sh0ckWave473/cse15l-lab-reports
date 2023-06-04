@@ -26,8 +26,11 @@ The bug in the code was located in the bash script where it originally used `jav
 **The file & directory structure needed**
 
 -MessingWithVSCode
+
   -bash.sh
+  
   -RandomStuff.java
+  
   
 **The contents of each file before fixing the bug**
 
