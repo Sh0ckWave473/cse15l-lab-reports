@@ -24,14 +24,21 @@ The bug in the code was located in the bash script where it originally used `jav
 
 # Information Need To Help The Student
 **The file & directory structure needed**
+
 -MessingWithVSCode
   -bash.sh
   -RandomStuff.java
+  
 **The contents of each file before fixing the bug**
+
   This is already provided in the Student's Original Post section.
+  
 **The full command line (or lines) you ran to trigger the bug**
+
   This is already provided in the Student's Original Post section.
+  
 **A description of what to edit to fix the bug**
+
   This is already provided in the TA's Response To The Post section.
   
 # Reflection
